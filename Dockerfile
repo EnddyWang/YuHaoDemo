@@ -1,6 +1,6 @@
 FROM registry.cn-hangzhou.aliyuncs.com/doumob-aliyun/jdk-private:8-jre-alpine
 
-ADD target/demo-0.0.1-SNAPSHOT.jar hello.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar hello.jar
 
 EXPOSE 5060
 
